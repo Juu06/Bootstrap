@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Actividad Obligatoria</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Bootstrap</title>
+  <style>
+  .container-fluid{
+
+    color: grey;
+
+    }
+
+
+  </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <div class="container-fluid">
+          <a classs="navbar-brand" href="#">Codo a Codo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desactivado</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+           </div>
+        </div>
+      </nav>
+
+
+  <div class="card-group">
+        <div class="card">
+            <img src="./Imagenes/html5.jpg" class="card-img-top" alt="html">
+            <div class="card-body">
+            <h5 class="card-title">titulo 1</h5>
+            <p class="card-text">Contenido de Card</p>
+            <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./Imagenes/css3.jpg" class="card-img-top" alt="css">
+            <div class="card-body">
+                <h5 class="card-title">titulo 2</h5>
+                <p class="card-text">Contenido de Card</p>
+                <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./Imagenes/bootstrap.jpg" class="card-img-top" alt="bootstrap">
+            <div class="card-body">
+                <h5 class="card-title">titulo 3</h5>
+                <p class="card-text">Contenido de Card</p>
+                <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+            </div>
+        </div>
+   </div>
+
+    <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <p>Nunca comparta su email.</p>
+            <p></p>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Contraseña</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="pwd" name="pwd">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                    <p></p>
+                    <label><input type="checkbox" name="verify"> Verificar </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <p></p>
+                <button type="enviar" class="btn btn-primary btn-sm"> Enviar </button>
+            </div>
+        </div>
+    </form>
+  </div>
+  
+</body>
+</html>
